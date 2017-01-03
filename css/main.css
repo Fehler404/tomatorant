@@ -1,0 +1,187 @@
+/*
+
+    AUTHOR: Jona Feucht
+    DEV-URL: https://jonafeucht.de
+    
+    VERSION: 1.0
+    THEME: Tomatorant
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway|Open+Sans|Antic+Didone|Sacramento|Cookie');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Droid+Sans');
+
+body,html {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+h1,h2,h3,h4,h5,h6,a,p {
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    width: 100%;
+}
+/* Intro Section */
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+}
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+#intro {
+    height: 100vh;
+    text-align: center;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.37)), 
+	url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#intro .container {
+    border: 6px solid #fff;
+    padding: 40px;
+}
+#intro h1 {
+    font-family: 'Cookie', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+#intro p {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+#intro .btn-primary {
+    padding: 10px 20px;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 14px;
+    background: #fff;
+    color: #333;
+    border: 2px solid #fff;
+    transition: all 0.4s ease-out;
+}
+#intro .btn-primary:hover {
+    padding: 10px 20px;
+    border-radius: 0;
+    font-family: 14px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.4s ease-out;
+}
+#intro .btn-primary:focus {
+    padding: 10px 20px;
+    border-radius: 0;
+    font-family: 14px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.4s ease-out;
+}
+/* navigation */
+.navbar-default {
+    background: transparent;
+    border: 0;
+}
+.navbar-default .navbar-nav li a {
+    color: #eee;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    outline: 0 none;
+    border-top: 2px solid transparent;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+    transition-duration: 1.0s;
+    border-top: 2px solid #fff;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+.navbar-default .navbar-toggle {
+	border: none;
+	padding-top: 12px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background: #fff;
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .dropdown li a {
+	color: #333;
+    padding: 16px 22px;
+} 
+.dropdown-menu {
+	border-radius: 0px;
+}
+.navbar {position: relative;min-height: 50px;margin-bottom: 0;border: 1px solid transparent;}
+/* Über Uns Section */
+#uber {
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.54),rgba(0, 0, 0, 0.62)), 
+	url('../images/bg-1.jpg');
+    padding-top: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
+#uber .container {
+    background: #fff;
+    padding: 30px;
+}
+#uber h3 {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+}
+#uber p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+#uber hr {
+    width: 5%;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    border: 2px solid #333;
+}
+#uber .btn-primary {
+    padding: 10px 24px;
+    text-align: center;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 14px;
+    background: #fff;
+    color: #8C6431;
+    border: 2px solid #8C6431;
+    transition: all 0.4s ease-out;
+}
+#uber .btn-primary:hover {
+    border-radius: 0;
+    background: #8C6431;
+    color: #fff;
+    border: 2px solid #8C6431;
+    transition: all 0.4s ease-out;
+}
+#uber .btn-primary:focus {
+    border-radius: 0;
+    background: #8C6431;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.4s ease-out;
+}
