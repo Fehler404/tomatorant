@@ -1,6 +1,5 @@
 <section id="speisekarte">   
     <div class="container">
-    <cms:editable name='speisekarte' type='richtext'>
       <div class="row">
         <div class="col-md-12">
             <h3>Speisekarte</h3>
@@ -21,5 +20,4 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
-    </cms:editable>
 </section> 

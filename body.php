@@ -1,5 +1,4 @@
 <section id="intro">
-   <cms:editable name='intro' type='richtext'>
     <div class="content">
     <div class="container">
     <div class="row">
@@ -12,7 +11,6 @@
     </div>
     </div>
     </div>
-    </cms:editable>
 </section>
 
 <nav class="navbar navbar-default navbar-static-top">

@@ -1,7 +1,6 @@
 
 <section id="uber">   
     <div class="container">
-    <cms:editable name='uber_uns' type='richtext'>
       <div class="row">
         <div class="col-md-6">
             <h3>Über Uns</h3>
@@ -17,5 +16,4 @@
             </div>
        </div>
       </div>
-    </cms:editable>
 </section>
