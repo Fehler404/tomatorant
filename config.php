@@ -7,7 +7,7 @@
     $website_name        = "TOMATORANT";
 
     $tab1                = "Öffnungszeiten";
-    $tab2                = "Speisekarte";
+    $tab2                = "Die Gesichter";
     $tab_dropdown        = "Spezial Menüs";
     $tab_dropdown1        = "Spezial Menüs";
     $tab_dropdown2        = "Spezial Menüs";
