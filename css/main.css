@@ -37,7 +37,7 @@ section {
     text-align: center;
     background:
     linear-gradient(
-    rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.37)), 
+    rgba(57, 75, 49, 0.65),rgba(85, 42, 42, 0.6)), 
 	url('../images/bg.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -58,28 +58,23 @@ section {
     color: #fff;
 }
 #intro .btn-primary {
-    padding: 10px 20px;
+    padding: 13px 26px;
     border-radius: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     background: #fff;
     color: #333;
     border: 2px solid #fff;
     transition: all 0.4s ease-out;
 }
 #intro .btn-primary:hover {
-    padding: 10px 20px;
     border-radius: 0;
-    font-family: 14px;
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
     transition: all 0.4s ease-out;
 }
 #intro .btn-primary:focus {
-    padding: 10px 20px;
-    border-radius: 0;
-    font-family: 14px;
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
@@ -176,7 +171,7 @@ iframe {
     linear-gradient(
     rgba(0, 0, 0, 0.54),rgba(0, 0, 0, 0.62)), 
 	url('../images/bg-1.jpg');
-    padding-top: 30px;
+    padding-top: 50px;
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -223,6 +218,51 @@ iframe {
     transition: all 0.4s ease-out;
 }
 #uber .btn-primary:focus {
+    border-radius: 0;
+    background: #8C6431;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.4s ease-out;
+}
+/* ausmacht Section */
+#ausmacht h3 {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+}
+#ausmacht p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+#ausmacht hr {
+    width: 5%;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    border: 2px solid #333;
+}
+#ausmacht .btn-primary {
+    padding: 10px 24px;
+    text-align: center;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 14px;
+    background: #fff;
+    color: #8C6431;
+    border: 2px solid #8C6431;
+    transition: all 0.4s ease-out;
+}
+#ausmacht .btn-primary:hover {
+    border-radius: 0;
+    background: #8C6431;
+    color: #fff;
+    border: 2px solid #8C6431;
+    transition: all 0.4s ease-out;
+}
+#ausmacht .btn-primary:focus {
     border-radius: 0;
     background: #8C6431;
     color: #fff;
