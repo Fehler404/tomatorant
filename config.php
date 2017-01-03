@@ -9,8 +9,8 @@
     $tab1                = "Öffnungszeiten";
     $tab2                = "Die Gesichter";
     $tab_dropdown        = "Spezial Menüs";
-    $tab_dropdown1        = "Spezial Menüs";
-    $tab_dropdown2        = "Spezial Menüs";
-    $tab_dropdown3        = "Spezial Menüs";
-    $tab_dropdown4        = "Spezial Menüs";
-    $tab_dropdown5        = "Spezial Menüs";
+    $tab_dropdown1       = "Spezial Menüs";
+    $tab_dropdown2       = "Spezial Menüs";
+    $tab_dropdown3       = "Spezial Menüs";
+    $tab_dropdown4       = "Spezial Menüs";
+    $tab_dropdown5       = "Spezial Menüs";
