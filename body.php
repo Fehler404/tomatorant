@@ -2,11 +2,11 @@
     <div class="content">
     <div class="container">
     <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <h1>TOMATORANT</h1>
+      <div class="col-md-12 col-sm-12 wow animated fadeIn" data-wow-delay=".5s">
+        <h1><?php echo $website_name;?></h1>
         <p>Das total "einzigartige" Restaurant</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Über Uns <i class="fa fa-cutlery" aria-hidden="true"></i></a>
-        <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-calendar" aria-hidden="true"></i> Öffnungzeiten</a></p>
+          <p><a class="btn btn-primary smoothScroll" href="#uber" role="button">Über Uns</a>
+        <a class="btn btn-primary" href="#" role="button">Öffnungzeiten</a></p>
       </div>
     </div>
     </div>
@@ -24,27 +24,25 @@
           </button>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-left">
             <li><a class="navbar-brand" href="#"><?php echo $website_name;?></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            </ul>  
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-home"></i></a></li>
+            <li><a href="#about"><?php echo $tab1;?></a></li>
+            <li><a href="#contact"><?php echo $tab2;?></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $tab_dropdown;?> <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="#"><?php echo $tab_dropdown1;?></a></li>
+                <li><a href="#"><?php echo $tab_dropdown2;?></a></li>
+                <li><a href="#"><?php echo $tab_dropdown3;?></a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#"><?php echo $tab_dropdown4;?></a></li>
+                <li><a href="#"><?php echo $tab_dropdown5;?></a></li>
               </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-<?php include('uber.php');?>
-<?php include('speisekarte.php');?>

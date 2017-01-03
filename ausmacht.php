@@ -3,6 +3,7 @@
       <div class="row">
         <div class="col-md-6 wow animated slideInUp" data-wow-delay=".3s">
             <div class="bg-1">
+          <p><img src="images/bg-2.jpg" alt=""/></p>
             </div>
        </div>
         <div class="col-md-6 wow animated slideInUp" data-wow-delay=".3s">
