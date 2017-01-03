@@ -9,6 +9,6 @@
     <meta name="description" content="<?php echo $website_description;?>">
     
     <?php include('core/includes/links.php');?>
-    <?php require_once( 'couch/cms.php' ); ?>
+
 </head>
     
